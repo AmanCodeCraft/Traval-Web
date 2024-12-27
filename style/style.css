@@ -8,3 +8,52 @@
     font-size: 1.4rem;
     margin-left: 30px;
 }
+
+.flexo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination,.left-content{
+    flex-direction: column;
+}
+
+.redborder{
+    border: 1px solid red;
+}
+
+.destination-box{
+    margin: 30px 25px;
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    transition: transform ease-in-out .40s;
+}
+
+.destination-box:hover{
+    transform: scale(1.1);
+}
+
+.destination-large-box{
+    flex-wrap: wrap;
+}
+
+.box-content{
+    justify-content: space-between;
+}
+
+.left-content{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.right-content>h6{
+    padding-right: 15px;
+}
+
+
+
+
+
